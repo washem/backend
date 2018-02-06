@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
 
-app.get('/endpointName', function (req, res) {
+app.get('/', function (req, res) {
     //res.header("Access-Control-Allow-Origin", "*");
-    res.send("hello")
+    res.send("hello eric")
 });
 
 app.listen(3000, function () {
