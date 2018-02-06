@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/', function (req, res) {
     //res.header("Access-Control-Allow-Origin", "*");
-    res.send("hello eric")
+    res.send("hello eric, you've made it")
 });
 
 app.listen(3000, function () {
